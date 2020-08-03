@@ -13,6 +13,7 @@ function App() {
   function mouseOver(e) {
     e.target.style.color = '#fff';
     e.target.style.cursor = "pointer";
+    
   }
 
   function mouseOut(e) {
@@ -23,6 +24,7 @@ function App() {
     document.getElementById("sidebar").style.width = "200px";
     document.getElementById('main').style.marginLeft = "200px"
     document.getElementById('show_sidebar').style.visibility = "hidden"
+
   }
   
   function esconder(){

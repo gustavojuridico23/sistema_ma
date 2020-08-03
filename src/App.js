@@ -14,6 +14,7 @@ function App() {
     e.target.style.color = '#fff';
     e.target.style.cursor = "pointer";
     
+    
   }
 
   function mouseOut(e) {
